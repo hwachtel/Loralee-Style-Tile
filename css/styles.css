@@ -1,0 +1,113 @@
+body{
+	background:url("../img/zwartevilt/zwartevilt.png");
+}
+.container {
+	margin-top: 16em;
+	background: url("../img/symphony/symphony.png");
+	padding: 4em;
+	border: 10px #ADADAD solid;
+	margin-right: 15em;
+	margin-left:15em;
+	margin-bottom:15em;
+	
+}
+
+.header{
+	margin-top:6em;
+	border-radius:3em;
+	background:url("../img/symphony/symphony.png");
+}
+
+em{
+	font-family:'Montserrat', sans-serif; 
+	color:#000000;
+	font-weight: bold
+}
+
+h1{
+	font-family: 'Indie Flower', cursive;
+	font-size: 6em;
+	color:#1D6D69;
+}
+h2,h3{
+	font-family: 'Montserrat', sans-serif;
+	color:#994CD1;
+}
+
+p{
+	font-family: 'Slabo 27px', serif;
+	color:black;
+	font-size: 6em
+	font-style: bold;
+
+}
+li{
+	font-family: 'Slabo 27px', serif;
+}
+/*Set Your Own Margin & Padding*/
+h1,h2, h3, p,em,section {
+	margin: 2px 38px;
+}
+
+
+/*Layout for Style Tile*/
+section {
+	margin: 20px 20px;
+}
+
+img{
+	width:40%;
+	height:50%;
+	margin:auto;
+
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 3px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 113px;
+	width: 50px;
+}
+
+.color-1,
+.pattern-1{
+	margin-left: 38px;
+}
+
+.color-1{
+	background:#424242; 
+}
+.color-2{
+	background: #ADADAD;
+}
+.color-3{
+	background: #1D6D69;
+}
+.color-4{
+	background:#70B7FF;
+}
+.color-5{
+	background: #994CD1;
+}
+
+.pattern-1{
+	background: url("../img/zwartevilt/zwartevilt.png") no-repeat;
+}
+.pattern-2{
+	background: url("../img/symphony/symphony.png") no-repeat;
+}
+.pattern-3{
+	background: url("../img/washi/washi.png")no-repeat;
+}
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
